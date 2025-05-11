@@ -4,11 +4,11 @@ import streamlit as st
 import joblib
 import pandas as pd
 import numpy as np
-import base64 # For optional background image
+import base64 
 
 # Project Name: EduPredict: Student Pass/Fail Predictor
 st.set_page_config(page_title="Student Performance Predictor", layout="wide")
-st.title('🎓📊 EduPredict: Student Pass/Fail Predictor')
+st.title('Project2_Group17/n🎓📊 EduPredict: Student Pass/Fail Predictor')
 
 st.write("""
 Enter the student's information to predict whether they will Pass or Fail.
@@ -51,7 +51,7 @@ try:
     model_pipeline = joblib.load(pipeline_filename)
     original_feature_names = joblib.load(original_features_filename)
     label_encoder = joblib.load(label_encoder_filename)
-    st.sidebar.success("Model, features, and label encoder loaded successfully!")
+    
 except FileNotFoundError:
     st.sidebar.error("Error: Model, features, or label encoder file(s) not found.")
     st.sidebar.info(f"Please ensure '{pipeline_filename}', '{original_features_filename}', and '{label_encoder_filename}' are in the same directory.")
