@@ -8,7 +8,7 @@ import base64
 
 # Project Name: EduPredict: Student Pass/Fail Predictor
 st.set_page_config(page_title="Student Performance Predictor", layout="wide")
-st.title('Project2_Group17\n🎓📊 EduPredict: Student Performance Prediction')
+st.title('EduPredict: Student Performance Prediction')
 
 st.write("""
 Enter the student's information to predict whether they will Pass or Fail.
