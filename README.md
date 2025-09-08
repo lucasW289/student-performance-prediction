@@ -42,9 +42,3 @@ Experience the live application here: [EduPredict Streamlit App](https://student
 - **ML Model:** Scikit-learn (RandomForest, Pipeline, ColumnTransformer), Pandas, Numpy, Joblib  
 - **Data Processing:** Label Encoding, OneHotEncoding, StandardScaler  
 
----
-
-## Authors
-
-Group 17 – Project 2  
-🎓 Student Performance Prediction App
